@@ -1,7 +1,7 @@
 /**
   * Created by mhd.ug on 6/12/16.
   */
-object ImplicitsConversion extends App {
+object ImplicitConversion extends App {
   implicit def intToComplex(n: Int): Complex = new Complex(n, n)
 
   val c = new Complex()
